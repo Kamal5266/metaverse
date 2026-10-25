@@ -1,7 +1,12 @@
-# Pre-existing (removed by MV-109 / MV-111 when docs, backlog and .github are committed)
+# Not published: planning docs, backlog and Copilot customization (workflows/templates stay tracked)
 /backlog
 /docs
-/.github
+/.github/agents/
+/.github/instructions/
+/.github/prompts/
+/.github/skills/
+/.github/copilot-instructions.md
+/AGENTS.md
 
 # Dependencies
 node_modules/
@@ -27,5 +32,3 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
-
-/.github
