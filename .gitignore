@@ -1,2 +1,31 @@
+# Pre-existing (removed by MV-109 / MV-111 when docs, backlog and .github are committed)
 /backlog
 /docs
+/.github
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Logs and OS/editor noise
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+/.github
