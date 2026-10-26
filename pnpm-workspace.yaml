@@ -2,6 +2,8 @@ packages:
   - apps/*
   - packages/*
 
-# unrs-resolver (transitive via eslint-plugin-import) is unused here; its postinstall never runs
+# Build scripts denied: esbuild ships its binary via optionalDependencies (postinstall is only a
+# fallback check); unrs-resolver (transitive via eslint-plugin-import) is unused here
 allowBuilds:
+  esbuild: false
   unrs-resolver: false
